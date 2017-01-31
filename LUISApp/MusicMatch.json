@@ -1,0 +1,230 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "MusicMatch",
+  "desc": "Music match app",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "GetLyrics"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Artist"
+    },
+    {
+      "name": "TrackTitle"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "number"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "find me the lyrics for \"back to december\" song",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for cold water",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "do you have the lyrics for one dance by drake",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "Artist",
+          "startPos": 9,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "get me the lyrics for back to december by taylor swift",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "Artist",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for send my love by adele",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "Artist",
+          "startPos": 9,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for can't stop the feeling by justin timberlake",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 10
+        },
+        {
+          "entity": "Artist",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for too good by drake",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "Artist",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for hello by adele",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Artist",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for into you by ariana",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "Artist",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for make me by britney",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "Artist",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for gold by kiiara",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Artist",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for controlla by drake",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Artist",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "show me the lyrics for bye by delve",
+      "intent": "GetLyrics",
+      "entities": [
+        {
+          "entity": "TrackTitle",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Artist",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    }
+  ]
+}
